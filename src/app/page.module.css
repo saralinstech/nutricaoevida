@@ -1,10 +1,29 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  /* padding: 6rem; */
   min-height: 100vh;
+}
+
+.benefitsRange {
+  font-family: "Dancing Script", cursive;
+  background-color: pink;
+  font-size: 1.5rem;
+  color: #fd6f8e;
+
+  width: 100vw;
+  height: 5rem;
+  padding: 1rem 5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.benefitsRange > div {
+  width: fit-content;
 }
 
 .description {
@@ -97,7 +116,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
