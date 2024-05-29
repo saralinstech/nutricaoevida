@@ -9,13 +9,13 @@ export const Container = styled.section`
 
   width: 100vw;
   height: 37rem;
-  color: white;
-
+  
   background-image: url("ProjectImages/Hero/img-hero.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
   background-color: pink;
+  color: white;
 
   div {
     display: flex;
