@@ -1,3 +1,4 @@
+import React from 'react';
 import styled from "styled-components";
 
 export const Container = styled.section`
@@ -24,8 +25,6 @@ export const Container = styled.section`
     align-items: flex-end;
 
     padding-top: 2rem;
-
-    font-family: "alata", sans-serif;
   }
 
   h2 {

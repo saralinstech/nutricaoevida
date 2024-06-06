@@ -1,11 +1,12 @@
 "use client";
 import Image from "next/image";
+import { alata } from "@/fonts";
 
 import { Container } from "./style";
 
 export function CaptivationCard({ image, title, description }) {
   return (
-    <Container>
+    <Container style={alata.style}>
       <div className="header-container">
         <Image
           src={image}

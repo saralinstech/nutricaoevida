@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 
 export const Container = styled.header`
@@ -17,6 +18,6 @@ export const Container = styled.header`
     gap: 7rem;
 
     font-size: 1.3rem;
-    font-family: "alata", sans-serif;
+    color: white;
   }
 `;
