@@ -1,14 +1,15 @@
 "use client";
+import { alata } from "@/fonts";
+import { healthyReasons } from "@/utils";
 
 import { CaptivationCard } from "./CaptivationCard";
-import { healthyReasons } from "./CaptivationCard/utils";
 
-import { Container, Footer, Header, Main } from "./style";
+import { Container, Header, Main, Footer } from "./style.js";
 
 export function CaptivationSection() {
   return (
     <Container>
-      <Header>
+      <Header style={alata.style}>
         MOTIVOS PARA TER UMA VIDA MAIS <br /> SAUDÁVEL COM ALIMENTAÇÃO
       </Header>
       <Main>
@@ -21,7 +22,7 @@ export function CaptivationSection() {
           />
         ))}
       </Main>
-      <Footer>
+      <Footer style={alata.style}>
         <p>
           Adotar uma alimentação saudável é um investimento na sua saúde e
           bem-estar a longo prazo, proporcionando uma vida mais plena e

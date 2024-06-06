@@ -1,17 +1,11 @@
 "use client";
-import { Dancing_Script } from "next/font/google";
+import { dancing_script } from "@/fonts";
 
-import { Container } from "./style";
-
-const dancing_script = Dancing_Script({
-  style: "normal",
-  weight: ["400"],
-  subsets: ["latin"],
-});
+import { Container } from "./style.js";
 
 export function BenefitsRange() {
   return (
-    <Container className={`${dancing_script.className}`}>
+    <Container style={dancing_script.style}>
       <div>Saúde</div>
       <div>+</div>
       <div>Bem-estar</div>

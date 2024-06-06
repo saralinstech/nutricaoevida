@@ -1,9 +1,11 @@
 "use client";
-import { Container } from "./style";
+import { alata } from "@/fonts";
+
+import { Container } from "./style.js";
 
 export function Header() {
   return (
-    <Container>
+    <Container style={alata.style}>
       <div>AC</div>
       <div>
         <a>Sobre</a>
