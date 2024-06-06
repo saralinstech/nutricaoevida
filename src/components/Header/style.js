@@ -17,5 +17,6 @@ export const Container = styled.header`
     gap: 7rem;
 
     font-size: 1.3rem;
+    font-family: "alata", sans-serif;
   }
 `;

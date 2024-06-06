@@ -9,7 +9,7 @@ export const Container = styled.section`
 
   width: 100vw;
   height: 37rem;
-  
+
   background-image: url("ProjectImages/Hero/img-hero.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,6 +24,8 @@ export const Container = styled.section`
     align-items: flex-end;
 
     padding-top: 2rem;
+
+    font-family: "alata", sans-serif;
   }
 
   h2 {

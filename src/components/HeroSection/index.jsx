@@ -1,7 +1,7 @@
 "use client";
 import { Container } from "./style";
 
-export const HeroSection = () => {
+export function HeroSection() {
   return (
     <Container>
       <div>
@@ -18,4 +18,4 @@ export const HeroSection = () => {
       </div>
     </Container>
   );
-};
+}

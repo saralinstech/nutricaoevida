@@ -1,7 +1,7 @@
 "use client";
 import { Container } from "./style";
 
-export const Header = () => {
+export function Header() {
   return (
     <Container>
       <div>AC</div>
@@ -13,4 +13,4 @@ export const Header = () => {
       </div>
     </Container>
   );
-};
+}
