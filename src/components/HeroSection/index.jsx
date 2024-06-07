@@ -1,9 +1,9 @@
 "use client";
 import { inter, alata } from "@/fonts";
 
-import { Container } from "./style.js";
+import { Container } from "./styles.js";
 
-export function HeroSection() {
+export default function HeroSection() {
   return (
     <Container>
       <div>

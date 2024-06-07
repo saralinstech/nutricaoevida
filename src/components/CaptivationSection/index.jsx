@@ -2,11 +2,11 @@
 import { alata } from "@/fonts";
 import { healthyReasons } from "@/utils";
 
-import { CaptivationCard } from "./CaptivationCard";
+import CaptivationCard from "./CaptivationCard";
 
-import { Container, Header, Main, Footer } from "./style.js";
+import { Container, Header, Main, Footer } from "./styles.js";
 
-export function CaptivationSection() {
+export default function CaptivationSection() {
   return (
     <Container>
       <Header style={alata.style}>
