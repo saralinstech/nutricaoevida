@@ -1,5 +1,3 @@
-import React from "react";
-
 import { styled } from "styled-components";
 
 export const Container = styled.section`
@@ -32,6 +30,7 @@ export const Main = styled.div`
   justify-content: space-evenly;
   align-items: center;
 
+  max-width: 77.438rem;
   width: 100%;
 `;
 
@@ -40,8 +39,12 @@ export const Footer = styled.div`
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  gap: 3rem;
+
+  margin-top: 1.5rem;
 
   p {
     color: #fd6f8e;
+    font-size: 1rem;
   }
 `;

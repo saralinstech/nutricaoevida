@@ -5,6 +5,7 @@ import { healthyReasons } from "@/utils";
 import CaptivationCard from "./CaptivationCard";
 
 import { Container, Header, Main, Footer } from "./styles.js";
+import CTButton from "../CTButton";
 
 export default function CaptivationSection() {
   return (
@@ -29,7 +30,7 @@ export default function CaptivationSection() {
           satisfatória
         </p>
 
-        <butoon>Fale conosco</butoon>
+        <CTButton />
       </Footer>
     </Container>
   );

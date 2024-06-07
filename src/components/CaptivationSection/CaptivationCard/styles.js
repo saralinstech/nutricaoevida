@@ -1,4 +1,3 @@
-import React from "react";
 import { styled } from "styled-components";
 
 export const Container = styled.div`
@@ -9,8 +8,9 @@ export const Container = styled.div`
   width: 18rem;
   min-height: 26rem;
 
-  box-shadow: 1px 4px 14px #808080c7;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   border-radius: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.15);
 
   .header-container {
     display: flex;
