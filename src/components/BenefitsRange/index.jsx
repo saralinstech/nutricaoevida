@@ -1,9 +1,10 @@
 "use client";
+
 import { dancing_script } from "@/fonts";
 
-import { Container } from "./style.js";
+import { Container } from "./styles.js";
 
-export function BenefitsRange() {
+export default function BenefitsRange() {
   return (
     <Container style={dancing_script.style}>
       <div>Saúde</div>

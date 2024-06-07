@@ -1,7 +1,7 @@
-import { HeroSection } from "@/components/HeroSection";
-import { Header } from "@/components/Header";
-import { CaptivationSection } from "@/components/CaptivationSection";
-import { BenefitsRange } from "@/components/BenefitsRange";
+import HeroSection from "@/components/HeroSection";
+import Header from "@/components/Header";
+import CaptivationSection from "@/components/CaptivationSection";
+import BenefitsRange from "@/components/BenefitsRange";
 
 import styles from "../styles/pages/page.module.css";
 

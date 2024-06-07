@@ -2,9 +2,9 @@
 import Image from "next/image";
 import { alata } from "@/fonts";
 
-import { Container } from "./style";
+import { Container } from "./styles.js";
 
-export function CaptivationCard({ image, title, description }) {
+export default function CaptivationCard({ image, title, description }) {
   return (
     <Container style={alata.style}>
       <div className="header-container">
