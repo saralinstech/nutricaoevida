@@ -5,6 +5,7 @@ export const Button = styled.button`
 
   background-color: #fd6f8e;
   color: white;
+  text-transform: uppercase;
   cursor: pointer;
   border: none;
 `;
