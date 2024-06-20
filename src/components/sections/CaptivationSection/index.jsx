@@ -5,7 +5,7 @@ import { healthyReasons } from "@/utils";
 import CaptivationCard from "./CaptivationCard";
 
 import { Container, Header, Main, Footer } from "./styles.js";
-import CTButton from "../CTButton";
+import CTButton from "../../_ui/CTButton";
 
 export default function CaptivationSection() {
   return (

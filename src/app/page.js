@@ -1,7 +1,8 @@
-import HeroSection from "@/components/HeroSection";
-import Header from "@/components/Header";
-import CaptivationSection from "@/components/CaptivationSection";
-import BenefitsRange from "@/components/BenefitsRange";
+import Header from "@/components/sections/Header";
+import HeroSection from "@/components/sections/HeroSection";
+import BenefitsRange from "@/components/sections/BenefitsRange";
+import CaptivationSection from "@/components/sections/CaptivationSection";
+import TestimonialsSection from "@/components/sections/TestimonialsSection";
 
 import styles from "../styles/pages/page.module.css";
 
@@ -12,6 +13,7 @@ export default function Home() {
       <HeroSection />
       <BenefitsRange />
       <CaptivationSection />
+      <TestimonialsSection />
     </main>
   );
 }
