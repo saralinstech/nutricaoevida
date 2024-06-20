@@ -1,4 +1,4 @@
-import { Inter, Alata, Dancing_Script } from "next/font/google";
+import { Inter, Alata, Dancing_Script, Montserrat } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
 const alata = Alata({
@@ -11,5 +11,10 @@ const dancing_script = Dancing_Script({
   weight: ["400"],
   subsets: ["latin"],
 });
+const montserrat = Montserrat({
+  style: "normal",
+  weight: ["700", "400", "300", "100"],
+  subsets: ["latin"],
+});
 
-export { inter, alata, dancing_script };
+export { inter, alata, dancing_script, montserrat };
